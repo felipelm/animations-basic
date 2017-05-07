@@ -11,12 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
-import AnimationBasic from './app/animationBasic';
+import Timing from './app/timing';
+import Spring from './app/spring';
 
 export default class animationsBasic extends Component {
   render() {
     return (
-      <AnimationBasic/>
+      <Spring/>
     );
   }
 }
