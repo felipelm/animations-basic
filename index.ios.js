@@ -14,11 +14,12 @@ import {
 import Timing from './app/timing';
 import Spring from './app/spring';
 import Card from './app/card';
+import Interpolate from './app/interpolate';
 
 export default class animationsBasic extends Component {
   render() {
     return (
-      <Card/>
+      <Interpolate/>
     );
   }
 }
