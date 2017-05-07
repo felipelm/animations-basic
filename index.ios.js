@@ -15,11 +15,12 @@ import Timing from './app/timing';
 import Spring from './app/spring';
 import Card from './app/card';
 import Interpolate from './app/interpolate';
+import Rotation from './app/rotation';
 
 export default class animationsBasic extends Component {
   render() {
     return (
-      <Interpolate/>
+      <Rotation/>
     );
   }
 }
