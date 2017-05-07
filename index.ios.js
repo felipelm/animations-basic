@@ -19,11 +19,12 @@ import Rotation from './app/rotation';
 import Sequence from './app/sequence';
 import Stagger from './app/stagger';
 import Parallel from './app/parallel';
+import FlipCard from './app/flip-card';
 
 export default class animationsBasic extends Component {
   render() {
     return (
-      <Parallel/>
+      <FlipCard/>
     );
   }
 }
