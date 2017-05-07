@@ -13,11 +13,12 @@ import {
 } from 'react-native';
 import Timing from './app/timing';
 import Spring from './app/spring';
+import Card from './app/card';
 
 export default class animationsBasic extends Component {
   render() {
     return (
-      <Spring/>
+      <Card/>
     );
   }
 }
